@@ -1,0 +1,45 @@
+{
+  "name": "book-store",
+  "version": "1.0.0",
+  "description": "Learnable2020 Node.js App Challenge (Book-Store) - Genesys Internship",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olisaagbafor/book-store.git"
+  },
+  "keywords": [
+    "Book-Store",
+    "Library",
+    "Node.js",
+    "JavaScript",
+    "WedDev",
+    "Backend",
+    "Learnable2020",
+    "Genesys-Internship",
+    "Code-Challange"
+  ],
+  "author": "OlisaAgbafor <olisaagbafor@gmail.com> (http://zecomstech.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olisaagbafor/book-store/issues"
+  },
+  "homepage": "https://github.com/olisaagbafor/book-store#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "nodemon": "^2.0.4"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      "node_modules/**/node_modules"
+    ],
+    "delay": "2500"
+  }
+}
