@@ -50,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599032575537</updated>
-      <workItem from="1599032576674" duration="51094000" />
+      <workItem from="1599032576674" duration="62228000" />
     </task>
     <servers />
   </component>
@@ -58,10 +58,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="445" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599076150460">
+    <state x="445" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599163789489">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="445" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1599076150460" />
+    <state x="445" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1599163789489" />
     <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1599087168363">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -70,5 +70,13 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="287" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.738@0.0.1366.738" timestamp="1599065014114" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1599160890268">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1599160890268" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1599166668863">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1599166668863" />
   </component>
 </project>

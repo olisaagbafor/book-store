@@ -25,15 +25,16 @@ var books = Object.values(JSON.parse(fs.readFileSync('./src/lib/books.json')));
 var users = Object.values(JSON.parse(fs.readFileSync('./src/lib/users.json')));
 const nav = [
     {link: "/books", title:"Books"},
-    {link: "/authors", title: "Authors"},
+    {link: "/books/create", title:"Add New Book"},
+    {link: "/users", title: "Users"},
     {link: "/admin", title: "Admin"}
 ];
 const bookRoutes = require('./src/routes/bookRoutes')(nav, books);
-const authRoutes = require('./src/routes/authRoutes')(nav, users);
+const userRoutes = require('./src/routes/userRoutes')(nav, users);
 const adminRoutes = require('./src/routes/adminRoutes')(nav, books);
 
 app.use('/books/', bookRoutes);
-app.use('/auth/', authRoutes);
+app.use('/users/', userRoutes);
 app.use('/admin/', adminRoutes);
 app.get('/', (request, response) => {
     response.render('index', {

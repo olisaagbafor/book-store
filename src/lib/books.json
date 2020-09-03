@@ -1,27 +1,47 @@
 [
   {
     "title": "My Title 1",
-    "genre": "The Book's Genre",
+    "quantity": "3111",
     "author": "Okoye Idams"
   },
   {
     "title": "REPORTS",
-    "genre": "On the High",
+    "quantity": 2598,
     "author": "Trevor Linsley"
   },
   {
     "title": "REPORTS1",
-    "genre": "On the High",
+    "quantity": "270",
     "author": "Trevor Linsley"
   },
   {
-    "title": "KIZITO ON BOARD",
-    "genre": "On the low",
+    "title": "KIZITO ON",
+    "quantity": "76",
     "author": "Helmy A. Youssef"
   },
   {
-    "title": "KIZITO ON BOARD",
-    "genre": "On the low",
+    "title": "ON BOARD",
+    "quantity": "20",
     "author": "Helmy A. Youssef"
+  },
+  {
+    "title": "Be Wise",
+    "author": "Robert Kiosaky",
+    "quantity": "20"
+  },
+  {
+    "title": "REPORTS",
+    "author": "Olisa Emmanuel",
+    "quantity": "8"
+  },
+  {
+    "title": "Testing",
+    "author": "Nwabude",
+    "quantity": "82"
+  },
+  {
+    "title": "REMIND ME",
+    "author": "Helmy Adams",
+    "quantity": 21
   }
 ]

@@ -81,13 +81,13 @@
         <div id="templatemo_content_right">
             <% for(let i=0; i < books.length; i++ ){%>
             <div class="templatemo_product_box">
-                <h1>Photography  <span>(by <%= books[i].author %>)</span></h1>
-                <img src="/images/book_image_<%= i + 1 %>.jpg" alt="image" />
+                <h1 style="overflow: hidden"><%= books[i].title %>  <span>(by <%= books[i].author %>)</span></h1>
+                <img src="/images/book_image_<%= i + 1 %>.jpg" alt="image" style="width: 100px;height: 150px"/>
                 <div class="product_info">
                     <p>Etiam luctus. Quisque facilisis suscipit elit. Curabitur...</p>
-                    <h3>$55</h3>
-                    <div class="buy_now_button"><a href="/books/<%= i %>">Buy Now</a></div>
-                    <div class="detail_button"><a href="/books/<%= i %>">Detail</a></div>
+                    <h2>Qnty: <span style="color: red"><%= books[i].quantity %></span> </h2>
+                    <div class="buy_now_button"><a href="/books/view/<%= i %>">Order Now</a></div>
+                    <div class="detail_button"><a href="/books/view/<%= i %>">Detail</a></div>
                 </div>
                 <div class="cleaner">&nbsp;</div>
             </div>

@@ -79,13 +79,19 @@
         <!-- end of content left -->
 
         <div id="templatemo_content_right">
-            <div class="templatemo_product_box">
-                <form action="/admin/add-book" method="post">
-                    <input type="text" name="title" placeholder="Title">
-                    <input type="text" name="genre" placeholder="Genre">
-                    <input type="text" name="author" placeholder="Author">
-                    <input type="submit">
-                </form>
+            <div class="templatemo_product_box" style="width: 95%; height: auto">
+                <div class="form-div">
+                    <h1 style="text-align: center">Add New Book</h1>
+                    <form action="/books/create" method="post">
+                        <label for="title">Book Title</label>
+                        <input type="text" id="title" name="title" placeholder="Book Title">
+                        <label for="author">Book Author</label>
+                        <input type="text" id="author" name="author" placeholder="Book Author">
+                        <label for="quantity">Available Quantity</label>
+                        <input type="number" id="quantity" name="quantity" placeholder="Available Quantity">
+                        <input type="submit">
+                    </form>
+                </div>
                 <div class="cleaner">&nbsp;</div>
             </div>
 
