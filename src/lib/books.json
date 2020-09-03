@@ -1,5 +1,27 @@
-{
-  "Book" : "Book 1",
-  "Book2" : "Book 2",
-  "Book3" : "Book 3"
-}
+[
+  {
+    "title": "My Title 1",
+    "genre": "The Book's Genre",
+    "author": "Okoye Idams"
+  },
+  {
+    "title": "REPORTS",
+    "genre": "On the High",
+    "author": "Trevor Linsley"
+  },
+  {
+    "title": "REPORTS1",
+    "genre": "On the High",
+    "author": "Trevor Linsley"
+  },
+  {
+    "title": "KIZITO ON BOARD",
+    "genre": "On the low",
+    "author": "Helmy A. Youssef"
+  },
+  {
+    "title": "KIZITO ON BOARD",
+    "genre": "On the low",
+    "author": "Helmy A. Youssef"
+  }
+]

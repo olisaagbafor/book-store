@@ -3,6 +3,9 @@ const fs = require('fs');
 
 const bookRoutes = express.Router();
 
+// var data = fs.readFileSync('./src/lib/books.json');
+// var word = JSON.parse(data);
+// console.log(word);
 const books = [
     {
         title: "My Title 1",
@@ -35,7 +38,7 @@ const books = [
         author: "Okoye Idams"
     }
 ];
-function router(nav) {
+function router(nav, books) {
     bookRoutes.route('/:id').get((req, res) => {
         const {id} = req.params;
         res.render('book/view', {
@@ -46,9 +49,6 @@ function router(nav) {
         });
     });
     bookRoutes.route('/').get((req, res) => {
-        var data = fs.readFileSync('./src/lib/books.json');
-        var word = JSON.parse(data);
-        console.log(word);
         res.render('book/index', {
             nav,
             title : 'Book Store',

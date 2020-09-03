@@ -32,6 +32,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Project\Node\book-store\public\css" />
       <recent name="C:\Project\Node\book-store\src\lib" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -48,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599032575537</updated>
-      <workItem from="1599032576674" duration="26984000" />
+      <workItem from="1599032576674" duration="44632000" />
     </task>
     <servers />
   </component>
@@ -60,6 +61,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="445" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1599076150460" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1599087168363">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1599087168363" />
     <state x="287" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599065014114">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

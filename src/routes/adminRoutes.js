@@ -1,60 +1,30 @@
 const express = require('express');
 const fs = require('fs');
 
-const bookRoutes = express.Router();
+const adminRoutes = express.Router();
 
-const books = [
-    {
-        title: "My Title 1",
-        genre: "The Book's Genre",
-        author: "Okoye Idams"
-    },
-    {
-        title: "My Title 2",
-        genre: "The Book's Genre",
-        author: "Okoye Idams"
-    },
-    {
-        title: "My Title 3",
-        genre: "The Book's Genre",
-        author: "Okoye Idams"
-    },
-    {
-        title: "My Title 4",
-        genre: "The Book's Genre",
-        author: "Okoye Idams"
-    },
-    {
-        title: "My Title 5",
-        genre: "The Book's Genre",
-        author: "Okoye Idams"
-    },
-    {
-        title: "My Title 6",
-        genre: "The Book's Genre",
-        author: "Okoye Idams"
-    }
-];
-function router(nav) {
-    bookRoutes.route('/:id').get((req, res) => {
-        const {id} = req.params;
-        res.render('book/view', {
+function router(nav, books) {
+    // adminRoutes.route('/:id').get((req, res) => {
+    //     const {id} = req.params;
+    //     res.render('book/view', {
+    //         nav ,
+    //         title : 'Book Store',
+    //         book: books[id],
+    //         id : id
+    //     });
+    // });
+    adminRoutes.route('/add-book').post((req, res) => {
+        books.push(req.body);
+        var input = JSON.stringify(books, null, 2);
+        fs.writeFileSync('./src/lib/books.json', input);
+        res.redirect('/books');
+    });
+    adminRoutes.route('/').get((req, res) => {
+        res.render('book/create', {
             nav ,
-            title : 'Book Store',
-            book: books[id],
-            id : id
+            title : 'Book Store'
         });
     });
-    bookRoutes.route('/').get((req, res) => {
-        var data = fs.readFileSync('./src/lib/books.json');
-        var word = JSON.parse(data);
-        console.log(word);
-        res.render('book/index', {
-            nav,
-            title : 'Book Store',
-            books
-        });
-    });
-    return bookRoutes;
+    return adminRoutes;
 }
 module.exports = router;
