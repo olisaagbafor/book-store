@@ -6,38 +6,6 @@ const bookRoutes = express.Router();
 // var data = fs.readFileSync('./src/lib/books.json');
 // var word = JSON.parse(data);
 // console.log(word);
-const books = [
-    {
-        title: "My Title 1",
-        genre: "The Book's Genre",
-        author: "Okoye Idams"
-    },
-    {
-        title: "My Title 2",
-        genre: "The Book's Genre",
-        author: "Okoye Idams"
-    },
-    {
-        title: "My Title 3",
-        genre: "The Book's Genre",
-        author: "Okoye Idams"
-    },
-    {
-        title: "My Title 4",
-        genre: "The Book's Genre",
-        author: "Okoye Idams"
-    },
-    {
-        title: "My Title 5",
-        genre: "The Book's Genre",
-        author: "Okoye Idams"
-    },
-    {
-        title: "My Title 6",
-        genre: "The Book's Genre",
-        author: "Okoye Idams"
-    }
-];
 function router(nav, books) {
     bookRoutes.route('/:id').get((req, res) => {
         const {id} = req.params;

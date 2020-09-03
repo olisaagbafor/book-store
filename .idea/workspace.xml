@@ -27,7 +27,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -36,6 +36,7 @@
       <recent name="C:\Project\Node\book-store\src\lib" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Project\Node\book-store\public\images" />
       <recent name="C:\Project\Node\book-store\public" />
       <recent name="C:\Project\Node\book-store\public\img\product" />
       <recent name="C:\Project\Node\book-store\public\css" />
@@ -49,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599032575537</updated>
-      <workItem from="1599032576674" duration="44632000" />
+      <workItem from="1599032576674" duration="51094000" />
     </task>
     <servers />
   </component>
