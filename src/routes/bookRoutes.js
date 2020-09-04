@@ -5,7 +5,20 @@ const bookRoutes = express.Router();
 const bookController = require('../controllers/bookController');
 
 function router(nav, books) {
-    const {index, show, create, store, edit, update, destroy, addQuantity, reduceQuantity} = bookController(nav, books);
+    const {
+        index,
+        show,
+        create,
+        store,
+        edit,
+        update,
+        destroy,
+        addQuantity,
+        reduceQuantity,
+        confirmDelete
+    } = bookController(nav, books);
+
+    bookRoutes.route('/delete/:id').get(confirmDelete);
 
     bookRoutes.route('/delete/:id').post(destroy);
 

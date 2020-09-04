@@ -1,27 +1,17 @@
 [
   {
-    "title": "My Title 1",
-    "genre": "The Book's Genre",
-    "author": "Okoye Idams"
+    "full_name": "Sample Example",
+    "user_id": "212",
+    "books_read": "21"
   },
   {
-    "title": "REPORTS",
-    "genre": "On the High",
-    "author": "Trevor Linsley"
+    "full_name": "Ogayi Clinton",
+    "user_id": "208",
+    "books_read": "44"
   },
   {
-    "title": "REPORTS1",
-    "genre": "On the High",
-    "author": "Trevor Linsley"
-  },
-  {
-    "title": "KIZITO ON BOARD",
-    "genre": "On the low",
-    "author": "Helmy A. Youssef"
-  },
-  {
-    "title": "KIZITO ON BOARD",
-    "genre": "On the low",
-    "author": "Helmy A. Youssef"
+    "full_name": "Uche Mark",
+    "user_id": "322",
+    "books_read": "8"
   }
 ]

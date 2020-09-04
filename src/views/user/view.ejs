@@ -80,24 +80,18 @@
         <div id="templatemo_content_right">
 
             <h1>
-                <%= book.title %> <span>(by <%= book.author %>)</span>
-                <span style="float: right">
-                    <span class="btn-blue" style="display: inline"><a href="/books/edit/<%= id %>">edit</a></span>
-                    <span class="btn-red" style="display: inline"><a href="/books/delete/<%= id %>">delete</a></span>
-                </span>
+                <%= user.full_name %> <span>(ID - <%= user.user_id %>)</span>
             </h1>
             <span style="float: right">
-                <span class="detail_button" style="display: inline"><a href="/books/issue/<%= id %>">issue out</a></span>
-                <span class="buy_now_button" style="display: inline"><a href="/books/return/<%= id %>">return</a></span>
+                <span class="detail_button" style="display: inline"><a href="/users/edit/<%= id %>">edit</a></span>
+                <span class="buy_now_button" style="display: inline"><a href="/users/delete/<%= id %>">delete</a></span>
             </span>
-            <div class="image_panel"><img src="/images/book_image_<%= parseInt(id) + 1 %>.jpg" alt="CSS Template" width="100" height="150" style="width: 100px;height: 150px" /></div>
+            <div class="image_panel"><img src="/images/users/user<%= id %>.jpg" alt="CSS Template" width="100" height="150" style="width: 100px;height: 150px" /></div>
             <h2>Read the lessons - Watch the videos - Do the exercises</h2>
             <ul>
-                <li>By  <a href="#">Publisher</a></li>
-                <li>January 2024</li>
-                <li>Pages: 498</li>
-                <li>ISBN 10: 0-496-91612-0 | ISBN 13: 9780492518154</li>
-                <li>Available Quantity : <a href="#"><%= book.quantity %></a></li>
+                <li>Full Name : <a href="#"><%= user.full_name %></a></li>
+                <li>User ID : <a href="#"><%= user.user_id %></a></li>
+                <li>Number of Books Read : <a href="#"><%= user.books_read %></a></li>
             </ul>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec dui. Donec nec neque ut quam sodales feugiat. Nam sodales, pede vel dapibus lobortis, ipsum diam molestie risus, a vulputate risus nisl pulvinar lacus.</p>

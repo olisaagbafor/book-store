@@ -58,12 +58,37 @@ img {
 	display: block;
 	width: 100px;
 	padding: 4px 0 5px 0;
-	margin-bottom: 10px; 
+	margin-bottom: 10px;
 	background: url(../images/templatemo_btn_02.jpg) no-repeat;
 	color: #FFFFFF;
 	font-weight: bold;
 	text-decoration: none;
 }
+
+.btn-blue a{
+	clear: both;
+	text-align: center;
+	display: inline-block;
+	width: 70px;
+	padding: 3px 0;
+	color: #FFFFFF;
+	border-radius: 10px;
+	text-decoration: none;
+	background-color: #0808f8;
+}
+
+.btn-red a{
+	clear: both;
+	text-align: center;
+	display: inline-block;
+	width: 70px;
+	padding: 3px 0;
+	color: #FFFFFF;
+	border-radius: 10px;
+	text-decoration: none;
+	background-color: red;
+}
+
 
 .detail_button a{
 	clear: both;
@@ -347,7 +372,8 @@ th, td {
 }
 
 tr:hover {
-	background-color:#f5f5f5;
+	color: #1c1c1b;
+	background-color: #f8e520;
 }
 
 /* end of content */
