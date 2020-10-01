@@ -4,7 +4,7 @@
   "description": "Learnable2020 Node.js App Challenge (Book-Store) - Genesys Internship",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --watch",
     "start": "nodemon ."
   },
   "repository": {
@@ -42,5 +42,9 @@
       "node_modules/**/node_modules"
     ],
     "delay": "2500"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "supertest": "^5.0.0"
   }
 }

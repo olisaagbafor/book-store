@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c46b13f-5e4b-4759-b671-a5043fa1819d" name="Default Changelist" comment="" />
+    <list default="true" id="6c46b13f-5e4b-4759-b671-a5043fa1819d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/books.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/books.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/users.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +25,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gwjVqHNSyAOXIhlgoRBJUErZE7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,7 +61,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599032575537</updated>
-      <workItem from="1599032576674" duration="74961000" />
+      <workItem from="1599032576674" duration="76674000" />
+      <workItem from="1599252790365" duration="1153000" />
+      <workItem from="1601475276926" duration="9018000" />
     </task>
     <servers />
   </component>
@@ -66,17 +79,21 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1599087168363" />
-    <state x="287" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599065014114">
+    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1601479536216">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="287" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.738@0.0.1366.738" timestamp="1599065014114" />
+    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1601479536216" />
+    <state x="287" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601487818331">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="287" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.738@0.0.1366.738" timestamp="1601487818331" />
     <state x="339" y="165" key="run.anything.popup" timestamp="1599160890268">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1599160890268" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1599204955157">
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1601558674547">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1599204955157" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1601558674547" />
   </component>
 </project>
