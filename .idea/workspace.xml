@@ -3,11 +3,129 @@
   <component name="ChangeListManager">
     <list default="true" id="6c46b13f-5e4b-4759-b671-a5043fa1819d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/books.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/books.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/author/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/author/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/author/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/author/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/banner/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/blog/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/blog/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/blog/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/blog/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/blog/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/cart/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/cart/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/flag/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/flag/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/flag/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/flex/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/flex/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/flex/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/icon-img/select-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/icon-img/select.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/icon-img/service-1-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/icon-img/service-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/icon-img/service-2-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/icon-img/service-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/icon-img/service-3-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/icon-img/service-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logo/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logo/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logo/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logo/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logo/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/post/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/post/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/post/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/post/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/quickview-l2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/quickview-l3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/quickview-l4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/quickview-l5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/quickview-s2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/quickview-s3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/quickview-s4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product/quickview-s5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/slider/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/slider/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/slider/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/slider/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/slider/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/slider/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/slider/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/slider/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/slider/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/slider/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/slider/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/slider/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/slider/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/team/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/team/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/team/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/team/4.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +181,23 @@
       <updated>1599032575537</updated>
       <workItem from="1599032576674" duration="76674000" />
       <workItem from="1599252790365" duration="1153000" />
-      <workItem from="1601475276926" duration="9018000" />
+      <workItem from="1601475276926" duration="10293000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="445" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599163789489">
@@ -79,6 +208,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1599087168363" />
+    <state x="231" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1601561914065">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="231" y="0" key="FileDocumentManager.FileCacheConflict/0.0.1366.738@0.0.1366.738" timestamp="1601561914065" />
     <state x="517" y="292" key="NewPhpFileDialog" timestamp="1601479536216">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
